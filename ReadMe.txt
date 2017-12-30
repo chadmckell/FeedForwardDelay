@@ -1,4 +1,4 @@
-Feed-Forward Delay Source Code
+FeedForward Delay Source Code
 
 Authors: Chad McKell + Roli, Ltd.
 Date: 29 Dec 2017
@@ -12,13 +12,15 @@ Description: Source code for a feed-forward digital delay VST plugin. My delay a
 
 3. Name the project “FeedForwardDelay”.
 
-4. Open the project settings.
+4. Open your project settings (click on the gear icon located near the top of the window).
 
 5. Make sure the following are enabled: Build AudioUnit v3, Plugin Midi Input, Plugin Midi Output, and Key Focus.
 
 6. Save and open the file in your selected exporter.
 
-7. Compile the source code using the exporter.
+7. Using your computer browser, navigate to your JUCE project folder. Remove all the files located in the “Source” folder. Now add the files from this GitHub repository.
 
-8. Find and run the VST plugin in your chosen DAW. If you’re using Ableton Live 9, make sure to enable “Use VST Plug-in System Folders” under Preferences->File Folder.
+8. Compile the new source code using the exporter.
+
+9. Find and run the VST plugin in your chosen DAW. If you’re using Ableton Live 9, make sure to enable “Use VST Plug-in System Folders” under Preferences->File Folder.
 
